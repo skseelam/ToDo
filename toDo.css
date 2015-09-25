@@ -1,0 +1,177 @@
+#container {
+   margin:0px 10% 0px 10%;
+   position:absolute;
+   width: 1000px;
+   height:700px;
+}
+
+body{
+
+  background-color:grey;
+}
+
+#leftMenu {
+
+float:left;
+width:30%;
+height:100%;
+background-color:lightgrey;
+
+}
+
+#contentMenu {
+height:100%;
+background-color: white;
+width:70%;
+display:inline-block;
+position:absolute;
+}
+
+#todo-logo, #top-bar{
+height: 7%;
+width:90%;
+border-bottom: 1px solid black;
+margin:0px 5px 0px 5px;
+}
+
+#todo-logo > img {
+width: 40px;
+height:40px;
+margin-bottom:0px;
+
+}
+
+.center {
+vertical-align:center;
+top:calc(50% - 10px);
+position:relative;
+margin: 2px;
+
+}
+
+
+#search-container {
+  float:left;
+}
+
+#top-icons {
+float:right;
+}
+
+#top-icons > span {
+margin:0px 8px 0px 8px;
+cursor:pointer;
+}
+
+
+#dates-list > ul, #projects > ul {
+text-align:left;
+margin-left:-25px;
+list-style: none;
+}
+#projects-label-div{
+
+border-bottom: 1px solid black;
+}
+
+#dates-list > ul > li, #projects > ul > li {
+margin-top: 10px;
+padding:4px;
+cursor:pointer;
+
+}
+
+#dates-list > ul > li:hover, #projects > ul > li:hover, ul.tabs {
+background-color:lightgreen;
+
+}
+i {
+margin-right:6px;
+}
+
+.icon-red {
+ color:red;
+}
+
+.icon-grey {
+color:grey;
+
+}
+
+.icon-lightblue {
+color:lightblue;
+}
+
+.icon-pink {
+color:pink;
+}
+
+#editor-container {
+margin-left:20px;
+margin-top:20px;
+}
+
+#editor-container > div {
+margin:5px 0px 5px 0px;
+}
+
+
+
+#newTask > input , #newTask > select {
+height:24px;
+}
+
+#new-task-desc {
+width:60%;
+}
+
+#addTaskBtn, #cancelTaskBtn {
+margin-top:5px;
+}
+
+.strike{
+text-decoration:line-through;	
+}
+
+#deleteTaskBtn {
+margin-left: 10px;
+}
+
+#deleteTaskBtn
+{
+	width:80px;
+	margin:5px;
+}
+
+#propertiesMenu {
+
+   display:block;
+   position:relative;
+   left:0px;
+   top:0px;
+   list-style:none;
+   z-index: 999;
+   border:1px solid lightgrey;
+   background-color:Gray
+
+}
+
+#propertiesMenu  ul  li {
+display:block;
+border-bottom:1px solid black;
+cursor:pointer;
+text-align:left;
+color:White;
+position:relative;
+left:0px;
+}
+
+#propertiesMenu  ul hr {
+position:relative;
+left:-20px;
+}
+
+#propertiesMenu ul li:hover {
+background-color:pink;
+cursor:pointer;
+}
